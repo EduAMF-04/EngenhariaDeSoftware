@@ -21,7 +21,9 @@ Toda a arquitetura do banco de dados e regras de negócio foram especificadas an
    pip install -r requirements.txt
 
 2. **Inicie o servidor:**
-    python -m uvicorn src.main:app --reload --app-dir .
+   ```
+   python -m uvicorn src.main:app --reload --app-dir .
 
-3. **Acesse a documentação interativa para testar os endpoints:**
+4. **Acesse a documentação interativa para testar os endpoints:**
+   ```
     Abra no navegador: http://127.0.0.1:8000/docs
