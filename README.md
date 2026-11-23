@@ -24,6 +24,6 @@ Toda a arquitetura do banco de dados e regras de negócio foram especificadas an
    ```
    python -m uvicorn src.main:app --reload --app-dir .
 
-4. **Acesse a documentação interativa para testar os endpoints:**
+4. **Abra no navegador:**
    ```
    http://127.0.0.1:8000/docs
